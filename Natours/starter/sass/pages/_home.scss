@@ -1,0 +1,32 @@
+.section-about{
+    background-color:$color-grey-light-1;
+    padding:25rem 0;
+    margin-top: -20vh;
+
+}
+.section-features {
+
+    & > * {
+        transform: skewY(7deg)    ;
+        -webkit-transform: skewY(7deg)    ;
+        -moz-transform: skewY(7deg)    ;
+        -ms-transform: skewY(7deg)    ;
+        -o-transform: skewY(7deg)    ;
+}
+
+    padding: 20rem 0;
+    background-image: linear-gradient(        to right bottom,        rgba($color-primary-dark, 0.8),        rgba($color-primary-light, 0.8)      ),      url(../img/hero.jpg);
+    background-size: hover;
+    transform: skewY(-7deg)  ;
+    -webkit-transform: skewY(-7deg)  ;
+    -moz-transform: skewY(-7deg)  ;
+    -ms-transform: skewY(-7deg)  ;
+    -o-transform: skewY(-7deg)  ;
+    margin-top:-10rem;
+}
+.section-tours{
+    margin-top:-10rem;
+    background-color:$color-grey-light-1;
+    padding:25rem 0 50rem 0;
+}
+  

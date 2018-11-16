@@ -7,7 +7,10 @@
 @import "base/typography";
 @import "base/utilities";
 
-@import "components/button.scss";
+@import "components/button";
+@import "components/_composition";
+@import "components/_feature-box";
+@import "components/_card";
 
 @import "layout/header";
 @import "layout/grid";
